@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices</title>
+        <!-- Les liens pour avoir le css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-danger">Exercices</h1>
+        <h2 class="text-primary">Exo 1</h2>
+        <!-- ma 1er row -->
+        <div class="row">
+            <div class="col-sm bg-danger"><p>Une</p></div>
+            <div class="col-sm bg-dark text-light"><p>Deux</p></div>
+        </div>
+        <!-- ma 2éme row -->
+        <div class="row">
+            <div class="col bg-success"><p>1</p></div>
+            <div class="col bg-warning"><p>2</p></div>
+            <div class="col bg-info"><p>3</p></div>
+        </div>
+        <h2 class="text-primary" >Exo 2</h2>
+    </div>
+
+    <!-- mon container -->
+    <div class="container-fluid">
+
+        <!-- ma ligne -->
+        <div class="row">
+            <!-- ma colonne -->
+            <div class="col-3 bg-success">
+                <p>Une</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 bg-dark text-light">
+                <p>Deux</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-9 bg-primary">
+                <p>Trois</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <!-- m = marging -->
+        <h2 class="text-primary m-4">Exo 3</h2>
+    </div>
+
+    <div class="container-fluid">
+
+        <!-- ma 1er ligne -->
+        <div class="row">
+            <div class="col-sm-3 bg-info"><p>Une</p></div>
+        </div>
+
+        <!-- ma 2eme ligne -->
+        <div class="row">
+            <div class="col-sm-6 bg-success"><p>Deux</p></div>
+        </div>
+
+        <!-- ma 3eme ligne -->
+        <div class="row">
+            <div class="col-sm-9 bg-dark text-light"><p>Trois</p></div>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <h2 class="text-primary">Exo 4</h2>
+    </div>
+
+    <div class="container-fluid">
+
+        <!-- ma 1er ligne -->
+        <div class="row justify-content-end">
+            <div class="col-6 bg-info"><p>Une</p></div>
+        </div>
+
+        <!-- ma 3eme ligne -->
+        <div class="row justify-content-end">
+            <div class="col-9 bg-dark text-light"><p>Deux</p></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-primary">Exo 5</h2>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-around">
+
+            <div class="col-2 bg-primary"><p>Un</p></div>
+            <div class="col-2 bg-danger"><p>Deux</p></div>
+
+        </div>
+
+        <div class="row justify-content-between">
+
+            <div class="col-2 bg-info"><p>Une</p></div>
+            <div class="col-2 bg-warning"><p>Deux</p></div>
+            <div class="col-2 bg-success"><p>Trois</p></div>
+            <div class="col-2 bg-secondary"><p>Quatre</p></div>
+
+        </div>
+    </div>
+</body>
+</html>
